@@ -764,14 +764,14 @@ while True:
                             physics.calculate_energy()
                         else:
                             physics.derive_planck_constant()
-                    elif input_text_phy == "вихід":
+                    elif input_text_phy.lower().strip() == "вихід":
                         input_text = "вихід"
                         break
-                    elif input_text_phy == "назад":
+                    elif input_text_phy.lower().strip() == "назад":
                         print_response(f"""Ви можете поставити мені запитання з таких тем:
 {', '.join(topics_dictionary.keys())}.""")
                         break
-                    elif input_text_phy == "допомога":
+                    elif input_text_phy.lower().strip() == "допомога":
                         print_help()
                     else:
                         print_response(f"Не знайдено такої теми. Ви можете поставити мені запитання з таких тем:\n"
@@ -811,14 +811,14 @@ while True:
                             mathmatics.print_value_pi()
                         else:
                             mathmatics.calculate_sin_cos()
-                    elif input_text_math == "вихід":
+                    elif input_text_math.lower().strip() == "вихід":
                         input_text = "вихід"
                         break
-                    elif input_text_math == "назад":
+                    elif input_text_math.lower().strip() == "назад":
                         print_response(f"""Ви можете поставити мені запитання з таких тем:
 {', '.join(topics_dictionary.keys())}.""")
                         break
-                    elif input_text_math == "допомога":
+                    elif input_text_math.lower().strip() == "допомога":
                         print_help()
                     else:
                         print_response(f"Не знайдено такої теми. Ви можете поставити мені запитання з таких тем:\n"
@@ -856,14 +856,14 @@ while True:
                             geography.the_largest_population()
                         else:
                             geography.calculate_distance_between_two_points()
-                    elif input_text_geo == "вихід":
+                    elif input_text_geo.lower().strip() == "вихід":
                         input_text = "вихід"
                         break
-                    elif input_text_geo == "назад":
+                    elif input_text_geo.lower().strip() == "назад":
                         print_response(f"""Ви можете поставити мені запитання з таких тем:
 {', '.join(topics_dictionary.keys())}.""")
                         break
-                    elif input_text_geo == "допомога":
+                    elif input_text_geo.lower().strip() == "допомога":
                         print_help()
                     else:
                         print_response(f"Не знайдено такої теми. Ви можете поставити мені запитання з таких тем:\n"
@@ -937,14 +937,14 @@ while True:
                             astronomy.asteroids_and_comets()
                         else:
                             astronomy.processes_in_the_sun()
-                    elif input_text_astro == "вихід":
+                    elif input_text_astro.lower().strip() == "вихід":
                         input_text = "вихід"
                         break
-                    elif input_text_astro == "назад":
+                    elif input_text_astro.lower().strip() == "назад":
                         print_response(f"""Ви можете поставити мені запитання з таких тем:
 {', '.join(topics_dictionary.keys())}.""")
                         break
-                    elif input_text_astro == "допомога":
+                    elif input_text_astro.lower().strip() == "допомога":
                         print_help()
                     else:
                         print_response(f"Не знайдено такої теми. Ви можете поставити мені запитання з таких тем:\n"
@@ -987,14 +987,14 @@ while True:
                             general.play_rock_paper_scissors()
                         else:
                             general.say_inspirational_quote()
-                    elif input_text_gen == "вихід":
+                    elif input_text_gen.lower().strip() == "вихід":
                         input_text = "вихід"
                         break
-                    elif input_text_gen == "назад":
+                    elif input_text_gen.lower().strip() == "назад":
                         print_response(f"""Ви можете поставити мені запитання з таких тем:
 {', '.join(topics_dictionary.keys())}.""")
                         break
-                    elif input_text_gen == "допомога":
+                    elif input_text_gen.lower().strip() == "допомога":
                         print_help()
                     else:
                         print_response(f"Не знайдено такої теми. Ви можете поставити мені запитання з таких тем:\n"
